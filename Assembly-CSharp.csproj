@@ -60,8 +60,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\MainMenu.cs" />
-    <Compile Include="Assets\Scenes\Menu\KeyBindScript.cs" />
+    <Compile Include="Assets\Scenes\Menu\Script\KeyBindScript.cs" />
+    <Compile Include="Assets\Scenes\Menu\Script\MainMenu.cs" />
+    <Compile Include="Assets\Scenes\Timer\ScriptTimer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Users/hugop/Documents/Grand Out Racer I/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
