@@ -8,15 +8,9 @@ public class ScriptTimer : MonoBehaviour
 {
     public float time;
 
-    public object MathTime { get; private set; }
-
     private void Awake()
     {
         time = (int)Time.time;
-    }
-    void Start()
-    {
-        
     }
 
     void Update()
